@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+</head>
+<body>
+  <div class="jumbotron" id="head">
+    <h1><center>Welcome to <b>Doctor Lookup</b></center></h1>
+  </div>
+  <div class="container" id="findDoctor">
+    <br>
+    <h4>Find the doctor you need near you by practice!</h4>
+    <br>
+    <br>
+      <button class="btn-primary" id="start">Start</button>
+  </div>
+  <br>
+  <div class="container" id="searchBy">
+    <p>Select an option:</p>
+    <br>
+      <button type="button" class="btn" id="searchByPrac">Search by practice</button>
+      <button type="button" class="btn" id="searchByIssue">Search by medical issue</button>
+      <br>
+  </div>
+  <br>
+  <div class="container" id="medIssue">
+    <label for="searchField"></label>
+    <input type="text" name="searchField" id="query" placeholder="Search for a doctor/illness/symptom" required>
+    <br>
+    <br>
+    <button type="button" id="searchMedIssue" class="btn">Search</button>
+    <br>
+    <br>
+    <div>
+      <button type="button" class="btn" id="backToOptions1">Back to options</button>
+    </div>
+  </div>
+  <div class="container" id="practice">
+    <p><center>Choose a practice:</center></p>
+    <br>
+    <button type="button" class="btn" id="familyPhysician">Family physician</button>
+    <button type="button" class="btn" id="ophthalmologist">Ophthalmologist</button>
+    <button type="button" class="btn" id="dermatologist">Dermatologist</button>
+    <button type="button" class="btn" id="internist">Internist</button>
+    <button type="button" class="btn" id="pediatric">Pediatric</button>
+    <button type="button" class="btn" id="gynecologist">Gynecologist</button>
+    <button type="button" class="btn" id="surgeon">Surgeon</button>
+    <button type="button" class="btn" id="neurologist">Neurologist</button>
+    <br>
+    <div>
+        <button type="button" class="btn" id="backToOptions2">Back to options</button>
+    </div>
+  </div>
+  <br>
+  <div class="container" id="results">
+    <h3>Here's what we found!</h3>
+    <br>
+    <br>
+    <div id="pResults"></div>
+    <br>
+    <div>
+        <button type="button" class="btn" id="goBack">Go Back</button>
+        <button type="button" class="btn" id="backToOptions3">Back to options</button>
+    </div>
+    <br>
+    <br>
+  </div>
+  <div class="container" id="results2">
+    <h3>Here's what we found!</h3>
+    <br>
+    <br>
+    <div id="iResults"></div>
+    <br>
+    <div>
+        <button type="button" class="btn" id="goBack2">Go Back</button>
+        <button type="button" class="btn" id="backToOptions4">Back to options</button>
+    </div>
+    <br>
+    <br>
+  </div>
+</body>
+</body>
+<div class="footer">
+  <p><center>Copyright (C) by Uriel Gonzalez, 2019.</center></p>
+</div>
+</html>
