@@ -1,12 +1,4 @@
-#findDoctor {
-  text-align: center;
-}
-
-#results {
-  text-align: center;
-}
-
-#results2 {
+#findDoctor, #results, #results2, #searchBy, #medIssue, a {
   text-align: center;
 }
 
@@ -15,30 +7,22 @@
   font-size: 120%;
 }
 
-#searchBy {
-  text-align: center;
-}
-
-#medIssue {
-  text-align: center;
-}
-
 .item {
   display: none;
 }
 
 .btn:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
 }
 
 .btn:active {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
 #start {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -54,17 +38,17 @@
 #start {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 
 #start:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
 
 #backToOptions1 {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -81,16 +65,16 @@
 #backToOptions1 {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 #backToOptions1:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
 
 #backToOptions2 {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -107,17 +91,17 @@
 #backToOptions2 {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 #backToOptions2:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
 
 
 #backToOptions3 {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -134,15 +118,15 @@
 #backToOptions3 {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 #backToOptions3:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
 #backToOptions4 {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -159,16 +143,16 @@
 #backToOptions4 {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 #backToOptions4:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
 
 #goBack {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -185,15 +169,15 @@
 #goBack {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 #goBack:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
 #goBack2 {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -210,16 +194,16 @@
 #goBack2 {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 #goBack2:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
 
 #searchMedIssue {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -236,10 +220,10 @@
 #searchMedIssue {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #01C3FE;
   border-radius: 12px;
 }
 #searchMedIssue:hover {
-  background-color: #008CBA;
+  background-color: #01C3FE;
   color: white;
 }
